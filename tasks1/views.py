@@ -21,7 +21,7 @@ class CustomAPI(APIView):
     def get(self, request):
         param_value = request.query_params.get("slack_name=olatunde&track=backend")
         current_datetime = datetime.now()
-        utc_time = Datetimeserializer({'current_date': current_datetime.time(),'current_time': current_datetime.time()})
+        utc_time = Datetimeserializer({'current_date': current_datetime.date(),'current_time': current_datetime.time()})
 
         response = { "slack_name": "olatunde", "current_day": "Friday", "utc_time": utc_time.data, "track": "backend", "github_file_url": "https://github.com/olatunde/TASK1-.git", "github_repo_url": "https://github.com/olatunde2/TASK1-/blob/main/tasks1/views.py", "status_code": 200}
    
