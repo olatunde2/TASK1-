@@ -8,7 +8,7 @@ from django.http import JsonResponse
 def CustomAPI(request):
     current_datetime = datetime.now()
     formatted_date = current_datetime.strftime("%Y-%m-%d")
-    formatted_time = current_datetime.strftime("%H:%M:%SZ")
+    formatted_time = current_datetime.strftime("%H:%M:%S")
     response_data={
         'current_date':formatted_date,
         'current_time': formatted_time
