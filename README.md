@@ -72,8 +72,12 @@ Example Response:
 }
 }```
 
+**Usage Instructions:**
+Provide information on how to use the API, including details on making requests, expected responses, and any authentication requirements.
 
+Usage
 
+- Make a GET request to `/api` with query parameters to retrieve information.
+- Make a POST request to `/api` to create a new resource.
 
-
-
+Remember to include appropriate query parameters or request body data.
