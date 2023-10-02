@@ -70,8 +70,5 @@ Example Response:
   "github_repo_url": "https://github.com/new_user/task-repo.git",
   "status_code": 201
 }
-}
-!-- Add documentation for other endpoints here -->
-
-
+}```
 
