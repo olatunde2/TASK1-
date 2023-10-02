@@ -42,7 +42,7 @@ GET /api?slack_name=olatunde&track=backend
 }
 
 
-## Custom API (POST)
+Custom API (POST)
 
 URL: /api
 
@@ -73,7 +73,7 @@ Example Response:
 }
 !-- Add documentation for other endpoints here -->
 
-## Usage Instructions:
+Usage Instructions:
 
 Provide information on how to use the API, including details on making requests, expected responses, and any authentication requirements.
 
