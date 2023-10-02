@@ -73,13 +73,15 @@ Example Response:
 }
 !-- Add documentation for other endpoints here -->
 
-Usage Instructions:
+
+
+**Usage Instructions:**
 
 Provide information on how to use the API, including details on making requests, expected responses, and any authentication requirements.
 
 
 
-## Usage
+Usage
 
 - Make a GET request to `/api` with query parameters to retrieve information.
 - Make a POST request to `/api` to create a new resource.
@@ -90,7 +92,7 @@ If your project is open for contributions, you can include guidelines for contri
 
 
 
-## Contributing
+Contributing
 
 We welcome contributions! If you'd like to contribute to this project, please follow these guidelines:
 
@@ -108,7 +110,7 @@ Include information about the project's license if applicable.
 
 
 
-## License
+License
 
 This project is licensed under the [License Name] License - see the [LICENSE.md](LICENSE.md) file for details.
 Additional Sections:
